@@ -11,8 +11,9 @@
 .tituloNav {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 45px;
+  font-size: 50px;
   color: azure;
+  text-shadow: #eb0a0a 2px 2px 2px;
 }
 
 .fondo {
@@ -35,7 +36,7 @@
 
 .galeriaInicio {
   margin: auto;
-  border: 6px solid #eb0a0a;
+  border: 6px solid #000000;
   width: 710px;
   box-shadow: 10px;
   border-radius: 10px;
@@ -63,10 +64,10 @@
 }
 
 .linkImg a:hover {
-  background-color: #000000;
-  border: 8px solid #000000;
+  background-color: #f00909;
+  border: 8px solid #f00909;
   border-radius: 4px;
-  transition: 300ms;
+  transition: 200ms;
   cursor: pointer;
 }
 
